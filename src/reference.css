@@ -1,0 +1,37 @@
+/* zfm24 = Added styling to background and links */
+
+.backgroundImage {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url('./Images/skyline.jpg') no-repeat center center fixed;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: darken;
+    z-index: -1;
+    padding-bottom: 100%;
+    text-align: center;
+    color: white;
+    
+    
+}
+h2 {
+    color: white;
+    text-align: center;
+    font-size: 50px;
+}
+.links a{
+    color: rgb(169, 206, 219); 
+    font-size: 30px;
+}
+/* reference.css */
+.external-link:visited {
+    color: rgb(83, 138, 239);
+  }
+  
+/* reference.css */
+.external-link:visited, .external-link.visited-link {
+    color: rgb(83, 138, 239);
+  }
+  

@@ -1,0 +1,94 @@
+/* Style for the closing icon "X" */
+.menu-bars {
+    margin-left: 2rem;
+    font-size: 2rem;
+    background: none;
+    color: rgb(92, 120, 232);
+}
+
+/* Style for the sidebar icon to make it fixed and always visible */
+.menu {
+    position: fixed;
+    top: 30px;
+    left: 10px; /* Adjust as needed */
+    z-index: 1001; /* Ensure it is above other elements */
+}
+
+/* Style for the nav bar container */
+.nav-menu {
+    background-color: white;
+    width: 305px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: -100%;
+    transition: 850ms;
+    z-index: 1000;
+}
+
+.nav-menu.active {
+    left: 0;
+    transition: 350ms;
+}
+
+/* Style for the nav items */
+.nav-text {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 8px 0px 8px 16px;
+    list-style: none;
+    height: 60px;
+}
+
+/* Style for the text inside the sidebar */
+.nav-text a {
+    color: black;
+    font-size: 18px;
+    text-align: left;
+    width: 95%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 16px;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+.nav-text a:hover {
+    background-color: rgb(102, 102, 193);
+}
+
+/* Style for the nav menu items */
+.nav-menu-items {
+    width: 100%;
+}
+
+/* Style for the navbar toggle */
+.navbar-toggle {
+    background-color: white;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+span {
+    margin-left: 16px;
+}
+
+/* Style for the bar icon "three lines" */
+.bars {
+    text-align: left;
+    height: 80px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    z-index: 1001;
+}
